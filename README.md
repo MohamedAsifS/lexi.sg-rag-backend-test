@@ -5,13 +5,13 @@
 
 
 
-# 📚 Lexi RAG Backend Test
+# Lexi RAG Backend Test
 
 This is a backend service built using **FastAPI** that answers Indian legal queries using **Retrieval-Augmented Generation (RAG)**. It retrieves relevant legal content from documents (PDF/DOCX), generates a response, and returns citation sources.
 
 ---
 
-## 🚀 Hosted API
+## Hosted API
 
 📎 Live Demo: [YOUR_DEPLOYED_URL_HERE]  
 📷 Screenshot:  
@@ -130,15 +130,23 @@ FAISS index and chunked JSON will be created in:
 
 ---
 
-## 🧪 Test Cases Covered
+## 🧪 Test Cases Covered with **Screenshots:**
 
 * ✅ Valid legal query
-* ❌ Completely unrelated query
-* ⚠️ Empty or junk input
-* 🤔 Ambiguous phrasing
+  <img width="1413" height="940" alt="image" src="https://github.com/user-attachments/assets/f2d2935e-3fa1-42c2-88f9-b4291234bd48" />
 
-**Screenshots:**
-<img width="1188" height="914" alt="msedge_K9o8MjXTwr" src="https://github.com/user-attachments/assets/bf47ec4b-ba98-4e3e-83c4-7f9a3e3d36f9" />
+* ❌ Completely unrelated query
+   <img width="1778" height="849" alt="image" src="https://github.com/user-attachments/assets/a825a821-6d5f-4976-9570-e2f70aae01a9" />
+
+* ⚠️ Empty or junk input
+  <img width="1428" height="823" alt="image" src="https://github.com/user-attachments/assets/aeeddc1f-fced-468b-9179-6ff00b840aaa" />
+  <img width="1419" height="892" alt="image" src="https://github.com/user-attachments/assets/0fcc78f2-a254-4c9f-b9e6-f0f102f79212" />
+
+* 🤔 Ambiguous phrasing
+  <img width="1414" height="938" alt="image" src="https://github.com/user-attachments/assets/0b3a0d17-40bc-4186-95aa-6e31ab77a396" />
+  
+
+
 
 
 ---
