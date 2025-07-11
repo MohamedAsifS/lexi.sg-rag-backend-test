@@ -6,7 +6,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 RAW_PDF=Path("../data/raw_pdf")
 CHUNK=Path("../data/chunk")
 
-text_split=RecursiveCharacterTextSplitter(chunk_size=500,chunk_overlap=50,separators=["/n/n","/n"," ",""])
+text_split=RecursiveCharacterTextSplitter(chunk_size=300,chunk_overlap=50,separators=["/n/n","/n"," ",""])
 def load_and_split(pdf):
     """this function is intial step of RAG process where we get the pdf and split into chunks with help of langchain
 
@@ -49,4 +49,4 @@ for PDF in RAW_PDF.glob("*.pdf"):
     
 
 
-get_chuck_to_json(all_chunks)
+# get_chuck_to_json(all_chunks)

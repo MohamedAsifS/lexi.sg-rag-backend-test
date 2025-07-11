@@ -49,4 +49,4 @@ def embbed_and_store_to_faiss(document:list[Document]):
     embed.save_local("../data/FAISS")
     print("Stored as FAISS")
 
-embbed_and_store_to_faiss(token_and_change_to_document(json_path))
+# embbed_and_store_to_faiss(token_and_change_to_document(json_path))
