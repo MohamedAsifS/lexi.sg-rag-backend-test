@@ -1,8 +1,8 @@
 # lexi.sg-rag-backend-test
 
-Here is your fully structured `README.md` as per Lexi's submission requirements. You just need to **fill in your hosted URL** and **attach screenshots** at the marked placeholders:
 
----
+
+
 
 ```markdown
 # 📚 Lexi RAG Backend Test
@@ -33,7 +33,7 @@ This is a backend service built using **FastAPI** that answers Indian legal quer
 
 ## 📂 Project Structure
 
-```
+
 
 lexi.sg-rag-backend-test/
 │
