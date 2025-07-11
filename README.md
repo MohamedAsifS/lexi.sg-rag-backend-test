@@ -11,7 +11,7 @@ This is a backend service built using **FastAPI** that answers Indian legal quer
 
 ---
 
-## Hosted API
+
 
 Note: Due to deployment limits (free-tier memory and card requirements), this project is shared as a working local-only backend. Please follow the setup instructions to run the app locally and test the /query endpoint.
 📷 Screenshot:  
