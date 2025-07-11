@@ -11,14 +11,10 @@ This is a backend service built using **FastAPI** that answers Indian legal quer
 
 ---
 
-
-
-Note: Due to deployment limits (free-tier memory and card requirements), this project is shared as a working local-only backend. Please follow the setup instructions to run the app locally and test the /query endpoint.
-📷 Screenshot:  
-
-<img width="1188" height="914" alt="msedge_K9o8MjXTwr" src="https://github.com/user-attachments/assets/f527ee4b-e63f-4be9-afb6-5fedc8c31053" />
-
-
+⚠️ Note on Deployment:
+I attempted deployment using Render and Railway, but encountered limitations with free memory (512 MB) and port binding issues. I also explored AWS EC2, but due to previous billing and card limitations, I was unable to proceed.
+Therefore, I’ve shared this project as a locally testable FastAPI backend.
+ 
 ---
 
 ## ⚙️ Tech Stack
