@@ -55,21 +55,51 @@ lexi.sg-rag-backend-test/src
 
 ---
 
-## 🛠️ Setup Instructions
+Here’s the updated `README.md` setup section that includes instructions for signing up at Together AI, getting the API key, and adding it to a `.env` file:
+
+---
+
+### 🛠️ Setup Instructions
 
 ```bash
-
-# Create virtual environment
+# Create a virtual environment
 python -m venv venv
+# Activate environment
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-# Clone repository
+---
+
+### 📦 Clone and Install
+
+```bash
+# Clone the repository
 git clone https://github.com/yourusername/lexi.sg-rag-backend-test.git
 cd lexi.sg-rag-backend-test
 
 # Install dependencies
 pip install -r requirements.txt
-````
+```
+
+---
+
+### 🔐 Add Together API Key
+
+1. **Signup/Login** at [https://platform.together.xyz](https://platform.together.xyz)
+2. Go to **Dashboard → API Keys**
+3. Copy your free API key (e.g., `3l66d6001140e6df1cc7ad274a6ff747b8e44cbfbb1b8c66bb164e172b32f9c12`)
+4. Add the key in existing `.env` in the root of your project:
+
+```env
+TOGETHER_API_KEY="your_api_key_here"
+```
+
+✅ **Do not share your API key publicly.**
+
+---
+
+
+
 
 ---
 
