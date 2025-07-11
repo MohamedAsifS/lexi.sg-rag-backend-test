@@ -14,9 +14,9 @@ This is a backend service built using **FastAPI** that answers Indian legal quer
 ## 🚀 Hosted API
 
 📎 Live Demo: [YOUR_DEPLOYED_URL_HERE]  
-📷 Screenshots:  
-- [ ] Upload your screenshots here  
-- [ ] Test cases (valid, unrelated, empty, etc.)
+📷 Screenshot:  
+<img width="1188" height="914" alt="msedge_K9o8MjXTwr" src="https://github.com/user-attachments/assets/f527ee4b-e63f-4be9-afb6-5fedc8c31053" />
+
 
 ---
 
@@ -26,7 +26,7 @@ This is a backend service built using **FastAPI** that answers Indian legal quer
 - **Embeddings:** HuggingFace SentenceTransformers (`all-MiniLM-L6-v2`)  
 - **Vector DB:** FAISS  
 - **LLM:** DeepSeek via [Together API](https://www.together.ai/) (Open Source)  
-- **PDF Loader:** LangChain (`PyMuPDFLoader` / `PDFMinerLoader`)  
+- **PDF Loader:** LangChain (`PyMuPDFLoader` )  
 - **Chunking:** `RecursiveCharacterTextSplitter`
 
 ---
@@ -35,21 +35,20 @@ This is a backend service built using **FastAPI** that answers Indian legal quer
 
 
 ```
-lexi.sg-rag-backend-test/
+lexi.sg-rag-backend-test/src
 │
-├── app/
-│   ├── main.py                  # FastAPI app
-│   ├── query\_LLM\_RESULT.py      # LLM & FAISS loader
-│   ├── chunking.py              # PDF loader & chunker
+├── RAG_Functions/
+│   ├
+│   ├── query_LLM_RESULT.py      # LLM & FAISS loader
+│   ├── load_chunk.py             # PDF loader & chunker
 │   ├── embedding.py             # FAISS indexer
 │
 ├── data/
 │   ├── RAW\_DATA/                # Original documents
 │   ├── CHUNKS/                  # Chunked JSON
 │   ├── FAISS/                   # FAISS index files
-│
-├── requirements.txt
-├── README.md
+│── main.py                       # FastAPI app
+
 
 ```
 
@@ -58,14 +57,14 @@ lexi.sg-rag-backend-test/
 ## 🛠️ Setup Instructions
 
 ```bash
-# Clone repository
-git clone https://github.com/yourusername/lexi.sg-rag-backend-test.git
-cd lexi.sg-rag-backend-test
 
 # Create virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
+# Clone repository
+git clone https://github.com/yourusername/lexi.sg-rag-backend-test.git
+cd lexi.sg-rag-backend-test
 # Install dependencies
 pip install -r requirements.txt
 ````
@@ -75,7 +74,7 @@ pip install -r requirements.txt
 ## 🔨 How to Run Locally
 
 ```bash
-uvicorn app.main:app --reload
+uvicorn src.main:app --reload
 ```
 
 ---
@@ -139,17 +138,12 @@ FAISS index and chunked JSON will be created in:
 * 🤔 Ambiguous phrasing
 
 **Screenshots:**
-📷 \[Insert test result screenshots here]
+<img width="1188" height="914" alt="msedge_K9o8MjXTwr" src="https://github.com/user-attachments/assets/bf47ec4b-ba98-4e3e-83c4-7f9a3e3d36f9" />
+
 
 ---
 
-## ✅ Submission Checklist
 
-* [x] `/query` route working
-* [x] Chunked and embedded legal documents
-* [x] Embedding using SentenceTransformers
-* [x] Citation returned with answer
-* [x] README with all instructions
 
 ---
 
@@ -164,9 +158,8 @@ FAISS index and chunked JSON will be created in:
 ## 📝 Notes
 
 * This project is aligned with Lexi’s backend assignment spec.
-* Future plan: Use Indian legal corpus for citizen-accessible legal guidance tool "MyLaw".
+
 
 ```
 
-Let me know when you're ready to host or need help preparing `requirements.txt`, `Procfile`, or anything else for Render/Replit.
-```
+
