@@ -200,6 +200,4 @@ FAISS index and chunked JSON will be created in:
 * This project is aligned with Lexi’s backend assignment spec.
 
 
-```
-
 
