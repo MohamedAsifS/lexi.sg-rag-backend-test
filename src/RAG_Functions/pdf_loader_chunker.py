@@ -36,7 +36,7 @@ def get_chuck_to_json(data):
     
     path=CHUNK/"chunks.json"
     with open(path,"w",encoding="utf-8") as f:
-        json.dump(serializing_to_dict,f,ensure_ascii=False,indent=2)
+        json.dump(serializing_to_dict,f,ensure_ascii=True,indent=2)
 
 # now we get all the pdf from Data/raw_pdf folder with help of Path object where we can filter which type we need by using glob method
 all_chunks=[]
