@@ -4,7 +4,7 @@
 
 
 
-```markdown
+
 # 📚 Lexi RAG Backend Test
 
 This is a backend service built using **FastAPI** that answers Indian legal queries using **Retrieval-Augmented Generation (RAG)**. It retrieves relevant legal content from documents (PDF/DOCX), generates a response, and returns citation sources.
@@ -51,7 +51,7 @@ lexi.sg-rag-backend-test/
 ├── requirements.txt
 ├── README.md
 
-````
+
 
 ---
 
