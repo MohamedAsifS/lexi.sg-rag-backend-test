@@ -34,7 +34,7 @@ This is a backend service built using **FastAPI** that answers Indian legal quer
 ## 📂 Project Structure
 
 
-
+```
 lexi.sg-rag-backend-test/
 │
 ├── app/
@@ -51,7 +51,7 @@ lexi.sg-rag-backend-test/
 ├── requirements.txt
 ├── README.md
 
-
+```
 
 ---
 
