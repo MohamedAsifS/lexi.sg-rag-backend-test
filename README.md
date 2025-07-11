@@ -66,6 +66,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Clone repository
 git clone https://github.com/yourusername/lexi.sg-rag-backend-test.git
 cd lexi.sg-rag-backend-test
+
 # Install dependencies
 pip install -r requirements.txt
 ````
