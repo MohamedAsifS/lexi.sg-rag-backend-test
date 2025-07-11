@@ -15,6 +15,7 @@ This is a backend service built using **FastAPI** that answers Indian legal quer
 
 📎 Live Demo: [YOUR_DEPLOYED_URL_HERE]  
 📷 Screenshot:  
+
 <img width="1188" height="914" alt="msedge_K9o8MjXTwr" src="https://github.com/user-attachments/assets/f527ee4b-e63f-4be9-afb6-5fedc8c31053" />
 
 
